@@ -18,5 +18,7 @@ test('with truly the same objects we can use .toBe', () => {
 })
 
 describe('car', () => {
-  
+  test('car is defined', () => {
+    expect(Car).toBeDefined()
+  })
 })
