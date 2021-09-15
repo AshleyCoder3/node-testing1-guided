@@ -40,6 +40,7 @@ describe('car', () => {
     expect(prius.drive).toBeDefined()
     expect(prius.drive).toBeInstanceOf(Function)
     expect(typeof prius.drive).toBe("function")
+    expect(prius).toHaveProperty("drive")
     expect(prius.drive).toBe(Car.prototype.drive)
   })
 })
