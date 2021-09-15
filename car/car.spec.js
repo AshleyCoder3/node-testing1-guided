@@ -27,5 +27,6 @@ describe('car', () => {
     expect(prius.make).toBe('Toyota')
     expect(prius.model).toBe('Prius')
     expect(prius).toEqual({ make: 'Toyota', model: 'Prius' })
+    expect(prius).toMatchObject({ make: 'Toyota', model: 'Prius' })
   })
 })
