@@ -8,5 +8,5 @@ it('works', () => {
 test('objectMaker returns an object', () => {
   const whatItReturns = objectMaker()
   const whatWeExpect = {}
-  expect(whatItReturns).toBe(whatWeExpect)
+  expect(whatItReturns).toEqual(whatWeExpect)
 })
