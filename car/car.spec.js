@@ -1,2 +1,4 @@
 // Test away!
-it('works')
+it('works', () => {
+  expect(true).toBeTruthy()
+})
