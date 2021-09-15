@@ -9,6 +9,10 @@ class Car {
     this.odometer += miles
     return miles
   }
+  async driveAsync(miles) {
+    this.odometer += miles
+    return miles
+  }
 }
 
 module.exports = Car
