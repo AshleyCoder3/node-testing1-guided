@@ -6,7 +6,7 @@ class Car {
     this.odometer = 0
   }
   drive(miles) {
-    this.odometer -= miles
+    this.odometer += miles
   }
 }
 
