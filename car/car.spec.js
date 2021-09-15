@@ -31,4 +31,7 @@ describe('car', () => {
     expect(prius).toEqual({ make: 'Toyota', model: 'Prius' })
     expect(prius).toMatchObject({ make: 'Toyota', model: 'Prius' })
   })
+  test('new cars have an odometer set at zero', () => {
+    
+  })
 })
