@@ -1,5 +1,5 @@
 // Test away!
 it('works', () => {
-  expect(true).toBeTruthy()
+  expect(true).
   expect(true).not.toBe(false)
 })
