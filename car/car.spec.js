@@ -35,7 +35,7 @@ describe('car', () => {
     expect(prius).toMatchObject({ make: 'Toyota', model: 'Prius' })
   })
   test('new cars have an odometer set at zero', () => {
-    expect(prius.odometer).toBe(0);
+    expect(prius.odometer).toBe(0)
   })
   test('cars have a "drive" method', () => {
     expect(prius.drive).toBeDefined()
@@ -45,8 +45,7 @@ describe('car', () => {
     expect(prius.drive).toBe(Car.prototype.drive)
   })
   test('driving the car increases odometer by driven distance', () => {
-    expect(prius.odometer).toBe(0) // sanity
-    prius.drive(50)
+    prius.drive(50) // act!
     expect(prius.odometer).toBe(50)
   })
 })
