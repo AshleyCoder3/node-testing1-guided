@@ -1,3 +1,4 @@
+const Car = require('./car')
 function objectMaker() {
   return {}
 }
