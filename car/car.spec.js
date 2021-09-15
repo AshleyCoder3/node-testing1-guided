@@ -32,6 +32,7 @@ describe('car', () => {
     expect(prius).toMatchObject({ make: 'Toyota', model: 'Prius' })
   })
   test('new cars have an odometer set at zero', () => {
-    
+    const prius = new Car ('Toyota', 'Prius');
+    expect(prius.odometer).toBe(0);
   })
 })
