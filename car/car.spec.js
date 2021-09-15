@@ -53,5 +53,8 @@ describe('car', () => {
   })
   test('driving the car returns the driven distance', () => {
     expect(prius.drive(50)).toBe(50)
+
+    const drivenDistance = prius.drive(7)
+    expect(drivenDistance).toBe(7)
   })
 })
