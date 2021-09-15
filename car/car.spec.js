@@ -36,6 +36,6 @@ describe('car', () => {
     expect(prius.odometer).toBe(0);
   })
   test('cars have a "drive" method', () => {
-    
+    expect(prius.drive).toBeDefined() 
   })
 })
