@@ -10,3 +10,7 @@ test('objectMaker returns an object', () => {
   const whatWeExpect = {}
   expect(whatItReturns).toEqual(whatWeExpect)
 })
+test('with truly the same objects we can use .toBe', () => {
+  const o = {}
+  
+})
