@@ -48,5 +48,7 @@ describe('car', () => {
     // arrange! (making a new prius)
     prius.drive(50) // act!
     expect(prius.odometer).toBe(50) // assert
+    prius.drive(25)
+    expect(prius.odometer).toBe(75)
   })
 })
