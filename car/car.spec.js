@@ -8,7 +8,7 @@ it('compiles', () => {
 test('objectMaker returns an object', () => {
   const whatItReturns = objectMaker()
   const whatWeExpect = {}
-  expect(whatItReturns).toEqual(whatWeExpect)
+  expect(whatItReturns).toEqual(whatWeExpect) // toBe will not work here!
 })
 test('with truly the same objects we can use .toBe', () => {
   const o = {}
