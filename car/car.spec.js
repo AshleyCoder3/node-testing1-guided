@@ -44,4 +44,7 @@ describe('car', () => {
     expect(prius).toHaveProperty("drive")
     expect(prius.drive).toBe(Car.prototype.drive)
   })
+  test('driving the car increases odometer by driven distance', () => {
+    
+  })
 })
