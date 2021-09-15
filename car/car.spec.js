@@ -24,6 +24,8 @@ describe('car', () => {
   })
   test('Car creates instances of cars', () => {
     const prius = Car('Toyota', 'Prius')
-    expect(prius).toBe({make: 'Toyota', model: 'Prius' })
+    expect(prius.make).toBe('Toyota')
+    expect(prius.model).toBe('Prius')
+    expect(prius).toEqual({ make: 'Toyota', model: 'Prius' })
   })
 })
