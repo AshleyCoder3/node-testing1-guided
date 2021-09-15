@@ -12,5 +12,6 @@ test('objectMaker returns an object', () => {
 })
 test('with truly the same objects we can use .toBe', () => {
   const o = {}
-  
+  const oo = o
+  expect(o).toBe(oo)
 })
