@@ -26,6 +26,8 @@ describe('car', () => {
     const prius = new Car('Toyota', 'Prius')
     expect(prius.make).toBe('Toyota')
     expect(prius.model).toBe('Prius')
+    expect(prius).toHaveProperty('make')
+    expect(prius).toHaveProperty('model', 'Priu')
     expect(prius).toEqual({ make: 'Toyota', model: 'Prius' })
     expect(prius).toMatchObject({ make: 'Toyota', model: 'Prius' })
   })
