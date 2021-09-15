@@ -36,6 +36,8 @@ describe('car', () => {
     expect(prius.odometer).toBe(0);
   })
   test('cars have a "drive" method', () => {
-    expect(prius.drive).toBeDefined() 
+    const prius = new Car ('Toyota', 'Prius');
+    expect(prius.drive).toBeDefined()
+    expect(prius.drive).toBeInstanceOf(Function)
   })
 })
