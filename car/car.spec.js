@@ -9,7 +9,7 @@ test('objectMaker returns an object', () => {
   const whatItReturns = objectMaker()
   const whatWeExpect = {}
   expect(whatItReturns).toEqual(whatWeExpect) // toBe will not work here!
-  expect(what)
+  expect({ name: 'foo'}).toMatchObject({})
 })
 test('with truly the same objects we can use .toBe', () => {
   const o = {}
