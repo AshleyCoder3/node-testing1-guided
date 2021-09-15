@@ -1,7 +1,7 @@
 function objectMaker() {
   return {}
 }
-it('works', () => {
+it('compiles', () => {
   expect(true).toBeTruthy()
   expect(true).not.toBe(false)
 })
