@@ -57,4 +57,8 @@ describe('car', () => {
     const drivenDistance = prius.drive(7)
     expect(drivenDistance).toBe(7)
   })
+
+  test('driveAsync returns the driven distance asynchronously', () => {
+    
+  })
 })
