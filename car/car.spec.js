@@ -58,6 +58,7 @@ describe('car', () => {
     expect(drivenDistance).toBe(7)
   })
   test('driveAsync returns the driven distance asynchronously', async () => {
-    const drivenDistance = await 
+    const drivenDistance = await prius.driveAsync(50)
+    expect(drivenDistance).toBe(50)
   })
 })
