@@ -19,6 +19,10 @@ test('with truly the same objects we can use .toBe', () => {
 })
 
 describe('car', () => {
+  let prius
+  beforeEach(() => {
+    prius = new Car('')
+  })
   test('Car is defined', () => {
     expect(Car).toBeDefined()
   })
