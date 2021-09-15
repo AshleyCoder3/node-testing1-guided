@@ -20,7 +20,7 @@ test('with truly the same objects we can use .toBe', () => {
 
 describe('car', () => {
   let prius
-  beforeEach(() => { // afterEach 
+  beforeEach(() => { // afterEach beforeAll afterAll
     prius = new Car('Toyota', 'Prius')
   })
   test('Car is defined', () => {
