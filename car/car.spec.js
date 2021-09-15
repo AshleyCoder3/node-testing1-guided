@@ -45,9 +45,9 @@ describe('car', () => {
     expect(prius.drive).toBe(Car.prototype.drive)
   })
   test('driving the car increases odometer by driven distance', () => {
-    // arrange! (making a new prius)
-    prius.drive(50) // act!
-    expect(prius.odometer).toBe(50) // assert
+    // 1- arrange! (making a new prius)
+    prius.drive(50) // 2- act!
+    expect(prius.odometer).toBe(50) // 3- assert
     prius.drive(25)
     expect(prius.odometer).toBe(75)
   })
